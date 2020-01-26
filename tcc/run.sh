@@ -23,9 +23,9 @@ source env/bin/activate
 pip install -r tcc/requirements.txt
 
 # Downloads Pouring data /tmp/pouring_tfrecords/.
-# tcc/dataset_preparation/download_pouring_data.sh
+tcc/dataset_preparation/download_pouring_data.sh
 # Downloads ImageNet pretrained checkpoint (ResNet50v2) to /tmp/
-# wget -P /tmp/ https://github.com/keras-team/keras-applications/releases/download/resnet/resnet50v2_weights_tf_dim_ordering_tf_kernels_notop.h5
+wget -P /tmp/ https://github.com/keras-team/keras-applications/releases/download/resnet/resnet50v2_weights_tf_dim_ordering_tf_kernels_notop.h5
 
 # Make empty directory for logs.
 mkdir /tmp/alignment_logs
