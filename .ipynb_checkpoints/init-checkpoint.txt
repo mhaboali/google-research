@@ -1,0 +1,4 @@
+apt install vim git wget -y
+https://github.com/mhaboali/google-research.git --depth 1
+git config user.name "mhaboali"
+git config user.email "m.aboali1117@gmail.com"
