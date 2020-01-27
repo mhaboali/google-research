@@ -1,0 +1,140 @@
+I0127 16:46:14.183053 139878982821696 utils.py:249] Using config from config.py as no config.yml file exists in /tmp/alignment_logs
+2020-01-27 16:46:14.196842: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2020-01-27 16:46:14.200896: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.201268: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1070 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.683
+pciBusID: 0000:01:00.0
+2020-01-27 16:46:14.201309: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.201652: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 1 with properties: 
+name: GeForce GTX 1070 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.683
+pciBusID: 0000:02:00.0
+2020-01-27 16:46:14.201803: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-01-27 16:46:14.202662: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-01-27 16:46:14.203435: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-01-27 16:46:14.203652: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-01-27 16:46:14.204686: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-01-27 16:46:14.205521: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-01-27 16:46:14.207944: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-01-27 16:46:14.208063: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.208480: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.208862: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.209232: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.209571: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0, 1
+2020-01-27 16:46:14.209802: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-01-27 16:46:14.311764: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.313184: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.313718: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4fb09e0 executing computations on platform CUDA. Devices:
+2020-01-27 16:46:14.313732: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce GTX 1070 Ti, Compute Capability 6.1
+2020-01-27 16:46:14.313737: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (1): GeForce GTX 1070 Ti, Compute Capability 6.1
+2020-01-27 16:46:14.315439: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3912000000 Hz
+2020-01-27 16:46:14.315907: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x59a72e0 executing computations on platform Host. Devices:
+2020-01-27 16:46:14.315936: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-01-27 16:46:14.316195: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.316559: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1070 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.683
+pciBusID: 0000:01:00.0
+2020-01-27 16:46:14.316604: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.316968: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 1 with properties: 
+name: GeForce GTX 1070 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.683
+pciBusID: 0000:02:00.0
+2020-01-27 16:46:14.316994: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-01-27 16:46:14.317004: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-01-27 16:46:14.317013: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-01-27 16:46:14.317022: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-01-27 16:46:14.317031: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-01-27 16:46:14.317040: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-01-27 16:46:14.317050: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-01-27 16:46:14.317084: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.317458: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.317878: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.318256: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.318653: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0, 1
+2020-01-27 16:46:14.318675: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-01-27 16:46:14.319621: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-01-27 16:46:14.319632: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 1 
+2020-01-27 16:46:14.319637: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N Y 
+2020-01-27 16:46:14.319641: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 1:   Y N 
+2020-01-27 16:46:14.319778: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.320159: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.320527: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.320893: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 34 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+2020-01-27 16:46:14.321175: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.321551: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 39 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1070 Ti, pci bus id: 0000:02:00.0, compute capability: 6.1)
+2020-01-27 16:46:14.322770: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.323153: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1070 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.683
+pciBusID: 0000:01:00.0
+2020-01-27 16:46:14.323206: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.323550: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 1 with properties: 
+name: GeForce GTX 1070 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.683
+pciBusID: 0000:02:00.0
+2020-01-27 16:46:14.323574: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-01-27 16:46:14.323585: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-01-27 16:46:14.323594: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-01-27 16:46:14.323603: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-01-27 16:46:14.323612: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-01-27 16:46:14.323621: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-01-27 16:46:14.323631: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-01-27 16:46:14.323664: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.324029: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.324391: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.324774: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.325122: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0, 1
+2020-01-27 16:46:14.325161: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-01-27 16:46:14.325168: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 1 
+2020-01-27 16:46:14.325173: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N Y 
+2020-01-27 16:46:14.325178: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 1:   Y N 
+2020-01-27 16:46:14.325305: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.325676: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.326043: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.326391: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/device:GPU:0 with 34 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+2020-01-27 16:46:14.326431: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:46:14.326775: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/device:GPU:1 with 39 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1070 Ti, pci bus id: 0000:02:00.0, compute capability: 6.1)
+2020-01-27 16:46:14.341578: E tensorflow/stream_executor/cuda/cuda_driver.cc:828] failed to allocate 34.75M (36438016 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2020-01-27 16:46:14.341956: E tensorflow/stream_executor/cuda/cuda_driver.cc:828] failed to allocate 31.27M (32794368 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2020-01-27 16:46:14.344520: F tensorflow/stream_executor/cuda/cuda_driver.cc:175] Check failed: err == cudaSuccess || err == cudaErrorInvalidValue Unexpected CUDA error: out of memory
+Fatal Python error: Aborted
+
+Current thread 0x00007f381d152740 (most recent call first):
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/constant_op.py", line 111 in convert_to_eager_tensor
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/constant_op.py", line 254 in _constant_impl
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/constant_op.py", line 246 in constant
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/constant_op.py", line 305 in _constant_tensor_conversion_function
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/ops.py", line 1237 in internal_convert_to_tensor
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/ops.py", line 1158 in convert_to_tensor_v2
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/ops.py", line 1100 in convert_to_tensor
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/ops/random_ops.py", line 240 in random_uniform
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/ops/init_ops_v2.py", line 800 in random_uniform
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/ops/init_ops_v2.py", line 437 in __call__
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/keras/engine/base_layer_utils.py", line 134 in <lambda>
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/ops/resource_variable_ops.py", line 608 in _init_from_args
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/ops/resource_variable_ops.py", line 464 in __init__
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/ops/variables.py", line 264 in __call__
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/ops/variable_scope.py", line 2502 in default_variable_creator
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/ops/variables.py", line 199 in <lambda>
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/distribute/mirrored_strategy.py", line 574 in _real_mirrored_creator
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/distribute/mirrored_strategy.py", line 251 in _create_mirrored_variable
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/distribute/mirrored_strategy.py", line 581 in _create_variable
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/distribute/distribute_lib.py", line 1250 in creator_with_resource_vars
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/ops/variables.py", line 60 in getter
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/ops/variables.py", line 221 in _variable_v1_call
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/ops/variables.py", line 260 in __call__
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/keras/engine/base_layer_utils.py", line 154 in make_variable
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/training/tracking/base.py", line 713 in _add_variable_with_custom_getter
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/keras/engine/base_layer.py", line 389 in add_weight
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/keras/layers/convolutional.py", line 165 in build
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/keras/engine/base_layer.py", line 1966 in _maybe_build
+  File "/usr/local/lib/python3.6/dist-packages/tensorflow/python/keras/engine/base_layer.py", line 616 in __call__
+  File "/usr/local/lib/python3.6/dist-packages/keras_applications/resnet_common.py", line 363 in ResNet
+  File "/usr/local/lib/python3.6/dist-packages/keras_applications/resnet_common.py", line 495 in ResNet50V2
+  File "/tf/google-research/tcc/models.py", line 128 in __init__
+  File "/tf/google-research/tcc/models.py", line 330 in get_model
+  File "/tf/google-research/tcc/algos/algorithm.py", line 45 in __init__
+  File "/tf/google-research/tcc/algorithms.py", line 38 in get_algo
+  File "/tf/google-research/tcc/train.py", line 67 in train
+  File "/tf/google-research/tcc/train.py", line 154 in main
+  File "/usr/local/lib/python3.6/dist-packages/absl/app.py", line 251 in _run_main
+  File "/usr/local/lib/python3.6/dist-packages/absl/app.py", line 300 in run
+  File "/tf/google-research/tcc/train.py", line 157 in <module>
+  File "/usr/lib/python3.6/runpy.py", line 85 in _run_code
+  File "/usr/lib/python3.6/runpy.py", line 193 in _run_module_as_main

@@ -1,0 +1,566 @@
+I0127 15:35:18.895036 140555774920512 utils.py:249] Using config from config.py as no config.yml file exists in /tmp/alignment_logs
+2020-01-27 15:35:18.909714: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2020-01-27 15:35:18.940908: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:18.941488: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1070 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.683
+pciBusID: 0000:01:00.0
+2020-01-27 15:35:18.941532: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:18.942072: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 1 with properties: 
+name: GeForce GTX 1070 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.683
+pciBusID: 0000:02:00.0
+2020-01-27 15:35:18.942267: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-01-27 15:35:18.943185: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-01-27 15:35:18.944035: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-01-27 15:35:18.944282: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-01-27 15:35:18.945393: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-01-27 15:35:18.946321: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-01-27 15:35:18.948698: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-01-27 15:35:18.948834: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:18.949442: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:18.950069: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:18.950647: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:18.951203: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0, 1
+2020-01-27 15:35:18.951435: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-01-27 15:35:19.092205: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:19.097294: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:19.097935: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4625e50 executing computations on platform CUDA. Devices:
+2020-01-27 15:35:19.097955: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce GTX 1070 Ti, Compute Capability 6.1
+2020-01-27 15:35:19.097960: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (1): GeForce GTX 1070 Ti, Compute Capability 6.1
+2020-01-27 15:35:19.116913: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3912000000 Hz
+2020-01-27 15:35:19.117184: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4feefb0 executing computations on platform Host. Devices:
+2020-01-27 15:35:19.117204: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-01-27 15:35:19.118230: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:19.118673: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1070 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.683
+pciBusID: 0000:01:00.0
+2020-01-27 15:35:19.118721: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:19.119182: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 1 with properties: 
+name: GeForce GTX 1070 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.683
+pciBusID: 0000:02:00.0
+2020-01-27 15:35:19.119211: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-01-27 15:35:19.119220: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-01-27 15:35:19.119229: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-01-27 15:35:19.119237: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-01-27 15:35:19.119244: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-01-27 15:35:19.119252: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-01-27 15:35:19.119260: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-01-27 15:35:19.119300: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:19.119733: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:19.120164: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:19.120593: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:19.121025: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0, 1
+2020-01-27 15:35:19.121053: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-01-27 15:35:19.122248: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-01-27 15:35:19.122269: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 1 
+2020-01-27 15:35:19.122275: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N Y 
+2020-01-27 15:35:19.122279: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 1:   Y N 
+2020-01-27 15:35:19.122582: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:19.123039: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:19.123548: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:19.123983: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7495 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+2020-01-27 15:35:19.124274: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:19.124728: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 7600 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1070 Ti, pci bus id: 0000:02:00.0, compute capability: 6.1)
+2020-01-27 15:35:19.126020: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:19.126502: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1070 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.683
+pciBusID: 0000:01:00.0
+2020-01-27 15:35:19.126581: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:19.127022: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 1 with properties: 
+name: GeForce GTX 1070 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.683
+pciBusID: 0000:02:00.0
+2020-01-27 15:35:19.127047: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-01-27 15:35:19.127056: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-01-27 15:35:19.127064: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-01-27 15:35:19.127072: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-01-27 15:35:19.127080: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-01-27 15:35:19.127087: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-01-27 15:35:19.127095: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-01-27 15:35:19.127133: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:19.127593: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:19.128634: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:19.129116: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:19.129539: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0, 1
+2020-01-27 15:35:19.129585: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-01-27 15:35:19.129594: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 1 
+2020-01-27 15:35:19.129600: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N Y 
+2020-01-27 15:35:19.129605: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 1:   Y N 
+2020-01-27 15:35:19.129896: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:19.130873: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:19.131371: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:19.131801: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/device:GPU:0 with 7495 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+2020-01-27 15:35:19.131847: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 15:35:19.132260: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/device:GPU:1 with 7600 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1070 Ti, pci bus id: 0000:02:00.0, compute capability: 6.1)
+I0127 15:35:19.976694 140555774920512 cross_device_ops.py:416] Reduce to /job:localhost/replica:0/task:0/device:CPU:0 then broadcast to ('/job:localhost/replica:0/task:0/device:CPU:0',).
+I0127 15:35:19.978215 140555774920512 cross_device_ops.py:416] Reduce to /job:localhost/replica:0/task:0/device:CPU:0 then broadcast to ('/job:localhost/replica:0/task:0/device:CPU:0',).
+I0127 15:35:19.979149 140555774920512 cross_device_ops.py:416] Reduce to /job:localhost/replica:0/task:0/device:CPU:0 then broadcast to ('/job:localhost/replica:0/task:0/device:CPU:0',).
+I0127 15:35:19.984174 140555774920512 cross_device_ops.py:416] Reduce to /job:localhost/replica:0/task:0/device:CPU:0 then broadcast to ('/job:localhost/replica:0/task:0/device:CPU:0',).
+I0127 15:35:19.984947 140555774920512 cross_device_ops.py:416] Reduce to /job:localhost/replica:0/task:0/device:CPU:0 then broadcast to ('/job:localhost/replica:0/task:0/device:CPU:0',).
+I0127 15:35:19.985691 140555774920512 cross_device_ops.py:416] Reduce to /job:localhost/replica:0/task:0/device:CPU:0 then broadcast to ('/job:localhost/replica:0/task:0/device:CPU:0',).
+I0127 15:35:20.006366 140555774920512 cross_device_ops.py:416] Reduce to /job:localhost/replica:0/task:0/device:CPU:0 then broadcast to ('/job:localhost/replica:0/task:0/device:CPU:0',).
+I0127 15:35:20.013535 140555774920512 cross_device_ops.py:416] Reduce to /job:localhost/replica:0/task:0/device:CPU:0 then broadcast to ('/job:localhost/replica:0/task:0/device:CPU:0',).
+I0127 15:35:20.095054 140555774920512 cross_device_ops.py:416] Reduce to /job:localhost/replica:0/task:0/device:CPU:0 then broadcast to ('/job:localhost/replica:0/task:0/device:CPU:0',).
+I0127 15:35:20.095993 140555774920512 cross_device_ops.py:416] Reduce to /job:localhost/replica:0/task:0/device:CPU:0 then broadcast to ('/job:localhost/replica:0/task:0/device:CPU:0',).
+I0127 15:35:24.836155 140555774920512 datasets.py:286] Loading train data from: /tmp/pouring_tfrecords/pouring_train*
+W0127 15:35:25.537064 140550825031424 deprecation.py:323] From /usr/local/lib/python3.6/dist-packages/tensorflow/python/keras/layers/normalization.py:457: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+I0127 15:35:34.862634 140555774920512 cross_device_ops.py:733] batch_all_reduce: 74 all-reduces with algorithm = nccl, num_packs = 1, agg_small_grads_max_bytes = 0 and agg_small_grads_max_group = 10
+I0127 15:36:02.839591 140555774920512 cross_device_ops.py:733] batch_all_reduce: 74 all-reduces with algorithm = nccl, num_packs = 1, agg_small_grads_max_bytes = 0 and agg_small_grads_max_group = 10
+2020-01-27 15:36:38.445976: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1483] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2020-01-27 15:36:40.039538: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-01-27 15:36:48.853863: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-01-27 15:36:53.355306: W tensorflow/core/common_runtime/bfc_allocator.cc:237] Allocator (GPU_1_bfc) ran out of memory trying to allocate 1.39GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2020-01-27 15:36:54.655931: W tensorflow/core/common_runtime/bfc_allocator.cc:237] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.39GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2020-01-27 15:36:54.873640: W tensorflow/core/common_runtime/bfc_allocator.cc:237] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.56GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+I0127 15:36:59.049409 140555774920512 train.py:125] Checkpoint saved at iter 0.
+I0127 15:36:59.050977 140555774920512 train.py:137] Iter[1/150000], 93.7s/iter, Loss: 1.007
+I0127 15:37:03.514796 140555774920512 train.py:137] Iter[2/150000], 4.5s/iter, Loss: 0.844
+I0127 15:37:07.807763 140555774920512 train.py:137] Iter[3/150000], 4.3s/iter, Loss: 1.849
+I0127 15:37:12.047783 140555774920512 train.py:137] Iter[4/150000], 4.2s/iter, Loss: 1.096
+I0127 15:37:16.208294 140555774920512 train.py:137] Iter[5/150000], 4.2s/iter, Loss: 1.277
+I0127 15:37:20.696603 140555774920512 train.py:137] Iter[6/150000], 4.5s/iter, Loss: 0.916
+I0127 15:37:24.752934 140555774920512 train.py:137] Iter[7/150000], 4.1s/iter, Loss: 1.246
+I0127 15:37:28.909050 140555774920512 train.py:137] Iter[8/150000], 4.2s/iter, Loss: 0.865
+I0127 15:37:32.927530 140555774920512 train.py:137] Iter[9/150000], 4.0s/iter, Loss: 1.404
+I0127 15:37:37.007012 140555774920512 train.py:137] Iter[10/150000], 4.1s/iter, Loss: 0.932
+I0127 15:37:41.409340 140555774920512 train.py:137] Iter[11/150000], 4.4s/iter, Loss: 0.893
+I0127 15:37:45.444088 140555774920512 train.py:137] Iter[12/150000], 4.0s/iter, Loss: 0.997
+I0127 15:37:49.420954 140555774920512 train.py:137] Iter[13/150000], 4.0s/iter, Loss: 1.073
+I0127 15:37:53.744054 140555774920512 train.py:137] Iter[14/150000], 4.3s/iter, Loss: 0.938
+I0127 15:37:58.027520 140555774920512 train.py:137] Iter[15/150000], 4.3s/iter, Loss: 1.201
+I0127 15:38:02.226484 140555774920512 train.py:137] Iter[16/150000], 4.2s/iter, Loss: 0.904
+I0127 15:38:06.665619 140555774920512 train.py:137] Iter[17/150000], 4.4s/iter, Loss: 0.840
+I0127 15:38:10.891712 140555774920512 train.py:137] Iter[18/150000], 4.2s/iter, Loss: 0.960
+I0127 15:38:14.862834 140555774920512 train.py:137] Iter[19/150000], 4.0s/iter, Loss: 1.087
+I0127 15:38:18.968595 140555774920512 train.py:137] Iter[20/150000], 4.1s/iter, Loss: 0.841
+I0127 15:38:23.185668 140555774920512 train.py:137] Iter[21/150000], 4.2s/iter, Loss: 0.806
+I0127 15:38:27.287436 140555774920512 train.py:137] Iter[22/150000], 4.1s/iter, Loss: 0.895
+I0127 15:38:31.452107 140555774920512 train.py:137] Iter[23/150000], 4.2s/iter, Loss: 1.104
+I0127 15:38:35.533223 140555774920512 train.py:137] Iter[24/150000], 4.1s/iter, Loss: 0.798
+I0127 15:38:39.771040 140555774920512 train.py:137] Iter[25/150000], 4.2s/iter, Loss: 0.959
+I0127 15:38:44.083764 140555774920512 train.py:137] Iter[26/150000], 4.3s/iter, Loss: 0.941
+I0127 15:38:48.300179 140555774920512 train.py:137] Iter[27/150000], 4.2s/iter, Loss: 0.831
+I0127 15:38:52.523437 140555774920512 train.py:137] Iter[28/150000], 4.2s/iter, Loss: 0.934
+I0127 15:38:56.959502 140555774920512 train.py:137] Iter[29/150000], 4.4s/iter, Loss: 0.829
+I0127 15:39:01.026454 140555774920512 train.py:137] Iter[30/150000], 4.1s/iter, Loss: 0.704
+I0127 15:39:05.045633 140555774920512 train.py:137] Iter[31/150000], 4.0s/iter, Loss: 0.705
+I0127 15:39:09.110343 140555774920512 train.py:137] Iter[32/150000], 4.1s/iter, Loss: 0.799
+I0127 15:39:13.414383 140555774920512 train.py:137] Iter[33/150000], 4.3s/iter, Loss: 0.735
+I0127 15:39:18.028935 140555774920512 train.py:137] Iter[34/150000], 4.6s/iter, Loss: 0.806
+I0127 15:39:22.198733 140555774920512 train.py:137] Iter[35/150000], 4.2s/iter, Loss: 0.888
+I0127 15:39:26.217722 140555774920512 train.py:137] Iter[36/150000], 4.0s/iter, Loss: 0.849
+I0127 15:39:30.138768 140555774920512 train.py:137] Iter[37/150000], 3.9s/iter, Loss: 0.724
+I0127 15:39:34.087335 140555774920512 train.py:137] Iter[38/150000], 3.9s/iter, Loss: 0.868
+I0127 15:39:38.267569 140555774920512 train.py:137] Iter[39/150000], 4.2s/iter, Loss: 0.875
+I0127 15:39:42.297144 140555774920512 train.py:137] Iter[40/150000], 4.0s/iter, Loss: 0.847
+I0127 15:39:46.391472 140555774920512 train.py:137] Iter[41/150000], 4.1s/iter, Loss: 0.789
+I0127 15:39:50.450125 140555774920512 train.py:137] Iter[42/150000], 4.1s/iter, Loss: 0.968
+I0127 15:39:54.760105 140555774920512 train.py:137] Iter[43/150000], 4.3s/iter, Loss: 0.910
+I0127 15:39:59.218731 140555774920512 train.py:137] Iter[44/150000], 4.5s/iter, Loss: 0.753
+I0127 15:40:03.378522 140555774920512 train.py:137] Iter[45/150000], 4.2s/iter, Loss: 1.083
+I0127 15:40:07.631790 140555774920512 train.py:137] Iter[46/150000], 4.3s/iter, Loss: 0.757
+I0127 15:40:11.705151 140555774920512 train.py:137] Iter[47/150000], 4.1s/iter, Loss: 1.012
+I0127 15:40:15.845196 140555774920512 train.py:137] Iter[48/150000], 4.1s/iter, Loss: 0.874
+I0127 15:40:19.834347 140555774920512 train.py:137] Iter[49/150000], 4.0s/iter, Loss: 0.818
+I0127 15:40:23.980049 140555774920512 train.py:137] Iter[50/150000], 4.1s/iter, Loss: 0.714
+I0127 15:40:28.121673 140555774920512 train.py:137] Iter[51/150000], 4.1s/iter, Loss: 0.744
+I0127 15:40:32.284654 140555774920512 train.py:137] Iter[52/150000], 4.2s/iter, Loss: 0.770
+I0127 15:40:36.265569 140555774920512 train.py:137] Iter[53/150000], 4.0s/iter, Loss: 0.829
+I0127 15:40:40.274168 140555774920512 train.py:137] Iter[54/150000], 4.0s/iter, Loss: 0.858
+I0127 15:40:44.399924 140555774920512 train.py:137] Iter[55/150000], 4.1s/iter, Loss: 0.857
+I0127 15:40:48.639839 140555774920512 train.py:137] Iter[56/150000], 4.2s/iter, Loss: 0.682
+I0127 15:40:53.108920 140555774920512 train.py:137] Iter[57/150000], 4.5s/iter, Loss: 0.690
+I0127 15:40:57.345711 140555774920512 train.py:137] Iter[58/150000], 4.2s/iter, Loss: 0.686
+I0127 15:41:01.324139 140555774920512 train.py:137] Iter[59/150000], 4.0s/iter, Loss: 0.810
+I0127 15:41:05.521481 140555774920512 train.py:137] Iter[60/150000], 4.2s/iter, Loss: 0.774
+I0127 15:41:09.870701 140555774920512 train.py:137] Iter[61/150000], 4.3s/iter, Loss: 0.646
+I0127 15:41:13.977585 140555774920512 train.py:137] Iter[62/150000], 4.1s/iter, Loss: 0.958
+I0127 15:41:18.332538 140555774920512 train.py:137] Iter[63/150000], 4.4s/iter, Loss: 0.739
+I0127 15:41:22.317893 140555774920512 train.py:137] Iter[64/150000], 4.0s/iter, Loss: 0.890
+I0127 15:41:26.283361 140555774920512 train.py:137] Iter[65/150000], 4.0s/iter, Loss: 0.721
+I0127 15:41:30.279754 140555774920512 train.py:137] Iter[66/150000], 4.0s/iter, Loss: 0.695
+I0127 15:41:34.316180 140555774920512 train.py:137] Iter[67/150000], 4.0s/iter, Loss: 0.684
+I0127 15:41:38.427885 140555774920512 train.py:137] Iter[68/150000], 4.1s/iter, Loss: 0.700
+I0127 15:41:42.691344 140555774920512 train.py:137] Iter[69/150000], 4.3s/iter, Loss: 0.839
+I0127 15:41:46.658115 140555774920512 train.py:137] Iter[70/150000], 4.0s/iter, Loss: 0.917
+I0127 15:41:50.794905 140555774920512 train.py:137] Iter[71/150000], 4.1s/iter, Loss: 0.604
+I0127 15:41:55.252125 140555774920512 train.py:137] Iter[72/150000], 4.5s/iter, Loss: 0.798
+I0127 15:41:59.368235 140555774920512 train.py:137] Iter[73/150000], 4.1s/iter, Loss: 0.786
+I0127 15:42:03.450793 140555774920512 train.py:137] Iter[74/150000], 4.1s/iter, Loss: 0.717
+I0127 15:42:07.498264 140555774920512 train.py:137] Iter[75/150000], 4.0s/iter, Loss: 0.761
+I0127 15:42:11.939043 140555774920512 train.py:137] Iter[76/150000], 4.4s/iter, Loss: 0.786
+I0127 15:42:16.195267 140555774920512 train.py:137] Iter[77/150000], 4.3s/iter, Loss: 0.681
+I0127 15:42:20.562212 140555774920512 train.py:137] Iter[78/150000], 4.4s/iter, Loss: 0.666
+I0127 15:42:24.672680 140555774920512 train.py:137] Iter[79/150000], 4.1s/iter, Loss: 0.696
+I0127 15:42:28.923353 140555774920512 train.py:137] Iter[80/150000], 4.3s/iter, Loss: 0.787
+I0127 15:42:32.944253 140555774920512 train.py:137] Iter[81/150000], 4.0s/iter, Loss: 0.672
+I0127 15:42:37.118490 140555774920512 train.py:137] Iter[82/150000], 4.2s/iter, Loss: 0.675
+I0127 15:42:41.085805 140555774920512 train.py:137] Iter[83/150000], 4.0s/iter, Loss: 0.683
+I0127 15:42:45.357358 140555774920512 train.py:137] Iter[84/150000], 4.3s/iter, Loss: 0.644
+I0127 15:42:49.428652 140555774920512 train.py:137] Iter[85/150000], 4.1s/iter, Loss: 0.628
+I0127 15:42:53.549465 140555774920512 train.py:137] Iter[86/150000], 4.1s/iter, Loss: 0.682
+I0127 15:42:58.016279 140555774920512 train.py:137] Iter[87/150000], 4.5s/iter, Loss: 0.678
+I0127 15:43:02.454875 140555774920512 train.py:137] Iter[88/150000], 4.4s/iter, Loss: 0.724
+I0127 15:43:06.711704 140555774920512 train.py:137] Iter[89/150000], 4.3s/iter, Loss: 0.830
+I0127 15:43:10.988086 140555774920512 train.py:137] Iter[90/150000], 4.3s/iter, Loss: 0.703
+I0127 15:43:15.085929 140555774920512 train.py:137] Iter[91/150000], 4.1s/iter, Loss: 0.763
+I0127 15:43:19.407731 140555774920512 train.py:137] Iter[92/150000], 4.3s/iter, Loss: 0.838
+I0127 15:43:23.789497 140555774920512 train.py:137] Iter[93/150000], 4.4s/iter, Loss: 0.712
+I0127 15:43:27.939400 140555774920512 train.py:137] Iter[94/150000], 4.1s/iter, Loss: 0.668
+I0127 15:43:32.035902 140555774920512 train.py:137] Iter[95/150000], 4.1s/iter, Loss: 0.693
+I0127 15:43:36.135887 140555774920512 train.py:137] Iter[96/150000], 4.1s/iter, Loss: 0.512
+I0127 15:43:40.262348 140555774920512 train.py:137] Iter[97/150000], 4.1s/iter, Loss: 0.646
+I0127 15:43:44.437858 140555774920512 train.py:137] Iter[98/150000], 4.2s/iter, Loss: 0.645
+I0127 15:43:48.714209 140555774920512 train.py:137] Iter[99/150000], 4.3s/iter, Loss: 0.885
+I0127 15:43:52.767642 140555774920512 train.py:137] Iter[100/150000], 4.1s/iter, Loss: 0.744
+I0127 15:43:56.832808 140555774920512 train.py:137] Iter[101/150000], 4.1s/iter, Loss: 0.675
+I0127 15:44:01.004958 140555774920512 train.py:137] Iter[102/150000], 4.2s/iter, Loss: 0.735
+I0127 15:44:05.205029 140555774920512 train.py:137] Iter[103/150000], 4.2s/iter, Loss: 0.739
+I0127 15:44:09.440867 140555774920512 train.py:137] Iter[104/150000], 4.2s/iter, Loss: 0.979
+I0127 15:44:13.488933 140555774920512 train.py:137] Iter[105/150000], 4.0s/iter, Loss: 0.619
+I0127 15:44:17.727676 140555774920512 train.py:137] Iter[106/150000], 4.2s/iter, Loss: 0.560
+I0127 15:44:22.047536 140555774920512 train.py:137] Iter[107/150000], 4.3s/iter, Loss: 0.662
+I0127 15:44:26.121353 140555774920512 train.py:137] Iter[108/150000], 4.1s/iter, Loss: 0.603
+I0127 15:44:30.364940 140555774920512 train.py:137] Iter[109/150000], 4.2s/iter, Loss: 0.728
+I0127 15:44:34.636313 140555774920512 train.py:137] Iter[110/150000], 4.3s/iter, Loss: 0.837
+I0127 15:44:38.755390 140555774920512 train.py:137] Iter[111/150000], 4.1s/iter, Loss: 0.600
+I0127 15:44:42.823644 140555774920512 train.py:137] Iter[112/150000], 4.1s/iter, Loss: 0.878
+I0127 15:44:47.163520 140555774920512 train.py:137] Iter[113/150000], 4.3s/iter, Loss: 0.654
+I0127 15:44:51.110335 140555774920512 train.py:137] Iter[114/150000], 3.9s/iter, Loss: 0.796
+I0127 15:44:55.162145 140555774920512 train.py:137] Iter[115/150000], 4.1s/iter, Loss: 0.666
+I0127 15:44:59.394230 140555774920512 train.py:137] Iter[116/150000], 4.2s/iter, Loss: 0.770
+I0127 15:45:03.737218 140555774920512 train.py:137] Iter[117/150000], 4.3s/iter, Loss: 0.611
+I0127 15:45:07.681628 140555774920512 train.py:137] Iter[118/150000], 3.9s/iter, Loss: 0.706
+I0127 15:45:11.923944 140555774920512 train.py:137] Iter[119/150000], 4.2s/iter, Loss: 0.640
+I0127 15:45:16.374402 140555774920512 train.py:137] Iter[120/150000], 4.4s/iter, Loss: 0.950
+I0127 15:45:20.505181 140555774920512 train.py:137] Iter[121/150000], 4.1s/iter, Loss: 0.635
+I0127 15:45:24.918608 140555774920512 train.py:137] Iter[122/150000], 4.4s/iter, Loss: 0.540
+I0127 15:45:29.170073 140555774920512 train.py:137] Iter[123/150000], 4.3s/iter, Loss: 0.764
+I0127 15:45:33.314946 140555774920512 train.py:137] Iter[124/150000], 4.1s/iter, Loss: 0.548
+I0127 15:45:37.533178 140555774920512 train.py:137] Iter[125/150000], 4.2s/iter, Loss: 0.630
+I0127 15:45:41.539098 140555774920512 train.py:137] Iter[126/150000], 4.0s/iter, Loss: 0.587
+I0127 15:45:45.625680 140555774920512 train.py:137] Iter[127/150000], 4.1s/iter, Loss: 0.783
+I0127 15:45:49.629304 140555774920512 train.py:137] Iter[128/150000], 4.0s/iter, Loss: 0.719
+I0127 15:45:53.840929 140555774920512 train.py:137] Iter[129/150000], 4.2s/iter, Loss: 0.690
+I0127 15:45:57.818264 140555774920512 train.py:137] Iter[130/150000], 4.0s/iter, Loss: 0.602
+I0127 15:46:02.044211 140555774920512 train.py:137] Iter[131/150000], 4.2s/iter, Loss: 0.670
+I0127 15:46:06.170173 140555774920512 train.py:137] Iter[132/150000], 4.1s/iter, Loss: 0.751
+I0127 15:46:10.562253 140555774920512 train.py:137] Iter[133/150000], 4.4s/iter, Loss: 0.644
+I0127 15:46:14.708926 140555774920512 train.py:137] Iter[134/150000], 4.1s/iter, Loss: 0.613
+I0127 15:46:19.219307 140555774920512 train.py:137] Iter[135/150000], 4.5s/iter, Loss: 0.690
+I0127 15:46:23.389867 140555774920512 train.py:137] Iter[136/150000], 4.2s/iter, Loss: 0.728
+I0127 15:46:27.711165 140555774920512 train.py:137] Iter[137/150000], 4.3s/iter, Loss: 0.544
+I0127 15:46:31.820966 140555774920512 train.py:137] Iter[138/150000], 4.1s/iter, Loss: 0.595
+I0127 15:46:35.897197 140555774920512 train.py:137] Iter[139/150000], 4.1s/iter, Loss: 0.658
+I0127 15:46:40.061667 140555774920512 train.py:137] Iter[140/150000], 4.2s/iter, Loss: 0.665
+I0127 15:46:44.187376 140555774920512 train.py:137] Iter[141/150000], 4.1s/iter, Loss: 0.558
+I0127 15:46:48.271796 140555774920512 train.py:137] Iter[142/150000], 4.1s/iter, Loss: 0.697
+I0127 15:46:52.172156 140555774920512 train.py:137] Iter[143/150000], 3.9s/iter, Loss: 0.596
+I0127 15:46:56.218760 140555774920512 train.py:137] Iter[144/150000], 4.0s/iter, Loss: 0.713
+I0127 15:47:00.318721 140555774920512 train.py:137] Iter[145/150000], 4.1s/iter, Loss: 0.509
+I0127 15:47:04.339220 140555774920512 train.py:137] Iter[146/150000], 4.0s/iter, Loss: 0.593
+I0127 15:47:08.678397 140555774920512 train.py:137] Iter[147/150000], 4.3s/iter, Loss: 0.637
+I0127 15:47:13.417005 140555774920512 train.py:137] Iter[148/150000], 4.7s/iter, Loss: 0.733
+I0127 15:47:17.558089 140555774920512 train.py:137] Iter[149/150000], 4.1s/iter, Loss: 0.554
+I0127 15:47:21.905225 140555774920512 train.py:137] Iter[150/150000], 4.3s/iter, Loss: 0.625
+I0127 15:47:26.216088 140555774920512 train.py:137] Iter[151/150000], 4.3s/iter, Loss: 0.606
+I0127 15:47:30.425278 140555774920512 train.py:137] Iter[152/150000], 4.2s/iter, Loss: 0.509
+I0127 15:47:34.751361 140555774920512 train.py:137] Iter[153/150000], 4.3s/iter, Loss: 0.541
+I0127 15:47:39.146221 140555774920512 train.py:137] Iter[154/150000], 4.4s/iter, Loss: 0.725
+I0127 15:47:43.532438 140555774920512 train.py:137] Iter[155/150000], 4.4s/iter, Loss: 0.759
+I0127 15:47:47.865240 140555774920512 train.py:137] Iter[156/150000], 4.3s/iter, Loss: 0.648
+I0127 15:47:52.026488 140555774920512 train.py:137] Iter[157/150000], 4.2s/iter, Loss: 0.607
+I0127 15:47:56.094454 140555774920512 train.py:137] Iter[158/150000], 4.1s/iter, Loss: 0.721
+I0127 15:48:00.161371 140555774920512 train.py:137] Iter[159/150000], 4.1s/iter, Loss: 0.743
+I0127 15:48:04.214905 140555774920512 train.py:137] Iter[160/150000], 4.1s/iter, Loss: 0.726
+I0127 15:48:08.498941 140555774920512 train.py:137] Iter[161/150000], 4.3s/iter, Loss: 0.552
+I0127 15:48:12.742795 140555774920512 train.py:137] Iter[162/150000], 4.2s/iter, Loss: 0.708
+I0127 15:48:16.847938 140555774920512 train.py:137] Iter[163/150000], 4.1s/iter, Loss: 0.774
+I0127 15:48:20.917471 140555774920512 train.py:137] Iter[164/150000], 4.1s/iter, Loss: 0.674
+I0127 15:48:24.956686 140555774920512 train.py:137] Iter[165/150000], 4.0s/iter, Loss: 0.636
+I0127 15:48:29.000644 140555774920512 train.py:137] Iter[166/150000], 4.0s/iter, Loss: 0.614
+I0127 15:48:33.181490 140555774920512 train.py:137] Iter[167/150000], 4.2s/iter, Loss: 0.554
+I0127 15:48:37.328332 140555774920512 train.py:137] Iter[168/150000], 4.1s/iter, Loss: 0.638
+I0127 15:48:41.639317 140555774920512 train.py:137] Iter[169/150000], 4.3s/iter, Loss: 0.646
+I0127 15:48:46.011241 140555774920512 train.py:137] Iter[170/150000], 4.4s/iter, Loss: 0.604
+I0127 15:48:50.389990 140555774920512 train.py:137] Iter[171/150000], 4.4s/iter, Loss: 0.586
+I0127 15:48:54.490283 140555774920512 train.py:137] Iter[172/150000], 4.1s/iter, Loss: 0.653
+I0127 15:48:59.235441 140555774920512 train.py:137] Iter[173/150000], 4.7s/iter, Loss: 0.474
+I0127 15:49:03.530135 140555774920512 train.py:137] Iter[174/150000], 4.3s/iter, Loss: 0.826
+I0127 15:49:07.662217 140555774920512 train.py:137] Iter[175/150000], 4.1s/iter, Loss: 1.018
+I0127 15:49:11.624652 140555774920512 train.py:137] Iter[176/150000], 4.0s/iter, Loss: 0.650
+I0127 15:49:15.690392 140555774920512 train.py:137] Iter[177/150000], 4.1s/iter, Loss: 0.594
+I0127 15:49:20.103772 140555774920512 train.py:137] Iter[178/150000], 4.4s/iter, Loss: 0.594
+I0127 15:49:24.220545 140555774920512 train.py:137] Iter[179/150000], 4.1s/iter, Loss: 0.634
+I0127 15:49:28.211868 140555774920512 train.py:137] Iter[180/150000], 4.0s/iter, Loss: 0.529
+I0127 15:49:32.461181 140555774920512 train.py:137] Iter[181/150000], 4.2s/iter, Loss: 0.630
+I0127 15:49:36.441457 140555774920512 train.py:137] Iter[182/150000], 4.0s/iter, Loss: 0.674
+I0127 15:49:40.815546 140555774920512 train.py:137] Iter[183/150000], 4.4s/iter, Loss: 0.548
+I0127 15:49:44.985473 140555774920512 train.py:137] Iter[184/150000], 4.2s/iter, Loss: 0.792
+I0127 15:49:49.118237 140555774920512 train.py:137] Iter[185/150000], 4.1s/iter, Loss: 1.050
+I0127 15:49:53.058747 140555774920512 train.py:137] Iter[186/150000], 3.9s/iter, Loss: 0.645
+I0127 15:49:57.157971 140555774920512 train.py:137] Iter[187/150000], 4.1s/iter, Loss: 0.663
+I0127 15:50:01.530484 140555774920512 train.py:137] Iter[188/150000], 4.4s/iter, Loss: 0.702
+I0127 15:50:05.791920 140555774920512 train.py:137] Iter[189/150000], 4.3s/iter, Loss: 0.696
+I0127 15:50:09.836414 140555774920512 train.py:137] Iter[190/150000], 4.0s/iter, Loss: 0.722
+I0127 15:50:14.112917 140555774920512 train.py:137] Iter[191/150000], 4.3s/iter, Loss: 0.732
+I0127 15:50:18.409593 140555774920512 train.py:137] Iter[192/150000], 4.3s/iter, Loss: 0.819
+I0127 15:50:22.722246 140555774920512 train.py:137] Iter[193/150000], 4.3s/iter, Loss: 0.600
+I0127 15:50:26.751158 140555774920512 train.py:137] Iter[194/150000], 4.0s/iter, Loss: 0.636
+I0127 15:50:31.053701 140555774920512 train.py:137] Iter[195/150000], 4.3s/iter, Loss: 0.597
+I0127 15:50:35.019655 140555774920512 train.py:137] Iter[196/150000], 4.0s/iter, Loss: 0.556
+I0127 15:50:39.361762 140555774920512 train.py:137] Iter[197/150000], 4.3s/iter, Loss: 0.667
+I0127 15:50:43.380174 140555774920512 train.py:137] Iter[198/150000], 4.0s/iter, Loss: 0.572
+I0127 15:50:47.587944 140555774920512 train.py:137] Iter[199/150000], 4.2s/iter, Loss: 0.646
+I0127 15:50:51.667290 140555774920512 train.py:137] Iter[200/150000], 4.1s/iter, Loss: 0.586
+I0127 15:50:55.736538 140555774920512 train.py:137] Iter[201/150000], 4.1s/iter, Loss: 0.524
+I0127 15:50:59.633974 140555774920512 train.py:137] Iter[202/150000], 3.9s/iter, Loss: 0.667
+I0127 15:51:03.728442 140555774920512 train.py:137] Iter[203/150000], 4.1s/iter, Loss: 0.513
+I0127 15:51:07.807652 140555774920512 train.py:137] Iter[204/150000], 4.1s/iter, Loss: 0.650
+I0127 15:51:11.857378 140555774920512 train.py:137] Iter[205/150000], 4.0s/iter, Loss: 0.496
+I0127 15:51:15.960456 140555774920512 train.py:137] Iter[206/150000], 4.1s/iter, Loss: 0.555
+I0127 15:51:20.449325 140555774920512 train.py:137] Iter[207/150000], 4.5s/iter, Loss: 0.677
+I0127 15:51:24.596692 140555774920512 train.py:137] Iter[208/150000], 4.1s/iter, Loss: 0.747
+I0127 15:51:28.846120 140555774920512 train.py:137] Iter[209/150000], 4.2s/iter, Loss: 0.595
+I0127 15:51:32.956234 140555774920512 train.py:137] Iter[210/150000], 4.1s/iter, Loss: 0.595
+I0127 15:51:37.174624 140555774920512 train.py:137] Iter[211/150000], 4.2s/iter, Loss: 0.651
+I0127 15:51:41.203871 140555774920512 train.py:137] Iter[212/150000], 4.0s/iter, Loss: 0.679
+I0127 15:51:45.562898 140555774920512 train.py:137] Iter[213/150000], 4.4s/iter, Loss: 0.549
+I0127 15:51:49.673511 140555774920512 train.py:137] Iter[214/150000], 4.1s/iter, Loss: 0.549
+I0127 15:51:53.936989 140555774920512 train.py:137] Iter[215/150000], 4.3s/iter, Loss: 0.730
+I0127 15:51:58.148639 140555774920512 train.py:137] Iter[216/150000], 4.2s/iter, Loss: 0.429
+I0127 15:52:02.231722 140555774920512 train.py:137] Iter[217/150000], 4.1s/iter, Loss: 0.830
+I0127 15:52:06.627683 140555774920512 train.py:137] Iter[218/150000], 4.4s/iter, Loss: 0.741
+I0127 15:52:10.993700 140555774920512 train.py:137] Iter[219/150000], 4.4s/iter, Loss: 0.686
+I0127 15:52:15.390435 140555774920512 train.py:137] Iter[220/150000], 4.4s/iter, Loss: 0.673
+I0127 15:52:19.801951 140555774920512 train.py:137] Iter[221/150000], 4.4s/iter, Loss: 0.683
+I0127 15:52:23.886274 140555774920512 train.py:137] Iter[222/150000], 4.1s/iter, Loss: 0.736
+I0127 15:52:27.963832 140555774920512 train.py:137] Iter[223/150000], 4.1s/iter, Loss: 0.596
+I0127 15:52:32.249564 140555774920512 train.py:137] Iter[224/150000], 4.3s/iter, Loss: 0.451
+I0127 15:52:36.119715 140555774920512 train.py:137] Iter[225/150000], 3.9s/iter, Loss: 0.448
+I0127 15:52:40.621097 140555774920512 train.py:137] Iter[226/150000], 4.5s/iter, Loss: 0.564
+I0127 15:52:44.926025 140555774920512 train.py:137] Iter[227/150000], 4.3s/iter, Loss: 0.636
+I0127 15:52:49.085337 140555774920512 train.py:137] Iter[228/150000], 4.2s/iter, Loss: 0.517
+I0127 15:52:53.384895 140555774920512 train.py:137] Iter[229/150000], 4.3s/iter, Loss: 0.682
+I0127 15:52:57.500786 140555774920512 train.py:137] Iter[230/150000], 4.1s/iter, Loss: 0.571
+I0127 15:53:01.924656 140555774920512 train.py:137] Iter[231/150000], 4.4s/iter, Loss: 0.442
+I0127 15:53:05.911056 140555774920512 train.py:137] Iter[232/150000], 4.0s/iter, Loss: 0.565
+I0127 15:53:10.269740 140555774920512 train.py:137] Iter[233/150000], 4.4s/iter, Loss: 0.662
+I0127 15:53:14.357823 140555774920512 train.py:137] Iter[234/150000], 4.1s/iter, Loss: 0.696
+I0127 15:53:18.377457 140555774920512 train.py:137] Iter[235/150000], 4.0s/iter, Loss: 0.681
+I0127 15:53:22.521792 140555774920512 train.py:137] Iter[236/150000], 4.1s/iter, Loss: 0.552
+I0127 15:53:26.585506 140555774920512 train.py:137] Iter[237/150000], 4.1s/iter, Loss: 0.678
+I0127 15:53:30.762572 140555774920512 train.py:137] Iter[238/150000], 4.2s/iter, Loss: 0.503
+I0127 15:53:34.916780 140555774920512 train.py:137] Iter[239/150000], 4.2s/iter, Loss: 0.534
+I0127 15:53:39.261394 140555774920512 train.py:137] Iter[240/150000], 4.3s/iter, Loss: 0.523
+I0127 15:53:43.250317 140555774920512 train.py:137] Iter[241/150000], 4.0s/iter, Loss: 0.547
+I0127 15:53:47.612154 140555774920512 train.py:137] Iter[242/150000], 4.4s/iter, Loss: 0.464
+I0127 15:53:51.805478 140555774920512 train.py:137] Iter[243/150000], 4.2s/iter, Loss: 0.382
+I0127 15:53:56.000800 140555774920512 train.py:137] Iter[244/150000], 4.2s/iter, Loss: 0.471
+I0127 15:54:00.264104 140555774920512 train.py:137] Iter[245/150000], 4.3s/iter, Loss: 0.454
+I0127 15:54:04.561656 140555774920512 train.py:137] Iter[246/150000], 4.3s/iter, Loss: 0.425
+I0127 15:54:08.682671 140555774920512 train.py:137] Iter[247/150000], 4.1s/iter, Loss: 0.606
+I0127 15:54:12.732748 140555774920512 train.py:137] Iter[248/150000], 4.0s/iter, Loss: 0.638
+I0127 15:54:16.751065 140555774920512 train.py:137] Iter[249/150000], 4.0s/iter, Loss: 0.419
+I0127 15:54:20.827469 140555774920512 train.py:137] Iter[250/150000], 4.1s/iter, Loss: 0.740
+I0127 15:54:24.884692 140555774920512 train.py:137] Iter[251/150000], 4.1s/iter, Loss: 0.478
+I0127 15:54:29.093718 140555774920512 train.py:137] Iter[252/150000], 4.2s/iter, Loss: 0.624
+I0127 15:54:33.321994 140555774920512 train.py:137] Iter[253/150000], 4.2s/iter, Loss: 0.649
+I0127 15:54:37.605775 140555774920512 train.py:137] Iter[254/150000], 4.3s/iter, Loss: 0.507
+I0127 15:54:41.650375 140555774920512 train.py:137] Iter[255/150000], 4.0s/iter, Loss: 0.510
+I0127 15:54:45.946291 140555774920512 train.py:137] Iter[256/150000], 4.3s/iter, Loss: 0.679
+I0127 15:54:50.075207 140555774920512 train.py:137] Iter[257/150000], 4.1s/iter, Loss: 0.472
+I0127 15:54:54.051010 140555774920512 train.py:137] Iter[258/150000], 4.0s/iter, Loss: 0.517
+I0127 15:54:58.289687 140555774920512 train.py:137] Iter[259/150000], 4.2s/iter, Loss: 0.480
+I0127 15:55:02.448528 140555774920512 train.py:137] Iter[260/150000], 4.2s/iter, Loss: 0.494
+I0127 15:55:06.694469 140555774920512 train.py:137] Iter[261/150000], 4.2s/iter, Loss: 0.537
+I0127 15:55:10.817250 140555774920512 train.py:137] Iter[262/150000], 4.1s/iter, Loss: 0.525
+I0127 15:55:14.881826 140555774920512 train.py:137] Iter[263/150000], 4.1s/iter, Loss: 0.616
+I0127 15:55:19.306831 140555774920512 train.py:137] Iter[264/150000], 4.4s/iter, Loss: 0.581
+I0127 15:55:23.521281 140555774920512 train.py:137] Iter[265/150000], 4.2s/iter, Loss: 0.398
+I0127 15:55:27.569128 140555774920512 train.py:137] Iter[266/150000], 4.0s/iter, Loss: 0.499
+I0127 15:55:31.686623 140555774920512 train.py:137] Iter[267/150000], 4.1s/iter, Loss: 0.425
+I0127 15:55:35.873498 140555774920512 train.py:137] Iter[268/150000], 4.2s/iter, Loss: 0.514
+I0127 15:55:40.025274 140555774920512 train.py:137] Iter[269/150000], 4.2s/iter, Loss: 0.719
+I0127 15:55:44.171991 140555774920512 train.py:137] Iter[270/150000], 4.1s/iter, Loss: 0.437
+I0127 15:55:48.321870 140555774920512 train.py:137] Iter[271/150000], 4.1s/iter, Loss: 0.615
+I0127 15:55:52.443743 140555774920512 train.py:137] Iter[272/150000], 4.1s/iter, Loss: 0.354
+I0127 15:55:56.436788 140555774920512 train.py:137] Iter[273/150000], 4.0s/iter, Loss: 0.608
+I0127 15:56:00.463381 140555774920512 train.py:137] Iter[274/150000], 4.0s/iter, Loss: 0.585
+I0127 15:56:04.757673 140555774920512 train.py:137] Iter[275/150000], 4.3s/iter, Loss: 0.426
+I0127 15:56:09.013402 140555774920512 train.py:137] Iter[276/150000], 4.3s/iter, Loss: 0.506
+I0127 15:56:12.983565 140555774920512 train.py:137] Iter[277/150000], 4.0s/iter, Loss: 0.586
+I0127 15:56:17.383055 140555774920512 train.py:137] Iter[278/150000], 4.4s/iter, Loss: 0.488
+I0127 15:56:21.759088 140555774920512 train.py:137] Iter[279/150000], 4.4s/iter, Loss: 0.589
+I0127 15:56:25.715029 140555774920512 train.py:137] Iter[280/150000], 4.0s/iter, Loss: 0.433
+I0127 15:56:29.916681 140555774920512 train.py:137] Iter[281/150000], 4.2s/iter, Loss: 0.431
+I0127 15:56:34.065154 140555774920512 train.py:137] Iter[282/150000], 4.1s/iter, Loss: 0.744
+I0127 15:56:38.102690 140555774920512 train.py:137] Iter[283/150000], 4.0s/iter, Loss: 0.503
+I0127 15:56:42.151941 140555774920512 train.py:137] Iter[284/150000], 4.0s/iter, Loss: 0.527
+I0127 15:56:46.395894 140555774920512 train.py:137] Iter[285/150000], 4.2s/iter, Loss: 0.693
+I0127 15:56:50.316961 140555774920512 train.py:137] Iter[286/150000], 3.9s/iter, Loss: 0.594
+I0127 15:56:54.750574 140555774920512 train.py:137] Iter[287/150000], 4.4s/iter, Loss: 0.445
+I0127 15:56:58.884838 140555774920512 train.py:137] Iter[288/150000], 4.1s/iter, Loss: 0.318
+I0127 15:57:03.266938 140555774920512 train.py:137] Iter[289/150000], 4.4s/iter, Loss: 0.494
+I0127 15:57:07.353404 140555774920512 train.py:137] Iter[290/150000], 4.1s/iter, Loss: 0.357
+I0127 15:57:11.834678 140555774920512 train.py:137] Iter[291/150000], 4.5s/iter, Loss: 0.474
+I0127 15:57:16.168030 140555774920512 train.py:137] Iter[292/150000], 4.3s/iter, Loss: 0.565
+I0127 15:57:20.195793 140555774920512 train.py:137] Iter[293/150000], 4.0s/iter, Loss: 0.524
+I0127 15:57:24.190773 140555774920512 train.py:137] Iter[294/150000], 4.0s/iter, Loss: 0.534
+I0127 15:57:28.461773 140555774920512 train.py:137] Iter[295/150000], 4.3s/iter, Loss: 0.465
+I0127 15:57:32.448173 140555774920512 train.py:137] Iter[296/150000], 4.0s/iter, Loss: 0.670
+I0127 15:57:36.722595 140555774920512 train.py:137] Iter[297/150000], 4.3s/iter, Loss: 0.386
+I0127 15:57:40.834586 140555774920512 train.py:137] Iter[298/150000], 4.1s/iter, Loss: 0.463
+I0127 15:57:45.232627 140555774920512 train.py:137] Iter[299/150000], 4.4s/iter, Loss: 0.569
+I0127 15:57:49.477498 140555774920512 train.py:137] Iter[300/150000], 4.2s/iter, Loss: 0.425
+I0127 15:57:53.625679 140555774920512 train.py:137] Iter[301/150000], 4.1s/iter, Loss: 0.688
+I0127 15:57:57.573172 140555774920512 train.py:137] Iter[302/150000], 3.9s/iter, Loss: 0.685
+I0127 15:58:01.513227 140555774920512 train.py:137] Iter[303/150000], 3.9s/iter, Loss: 0.412
+I0127 15:58:05.643152 140555774920512 train.py:137] Iter[304/150000], 4.1s/iter, Loss: 0.446
+I0127 15:58:09.620141 140555774920512 train.py:137] Iter[305/150000], 4.0s/iter, Loss: 0.463
+I0127 15:58:13.872507 140555774920512 train.py:137] Iter[306/150000], 4.3s/iter, Loss: 0.507
+I0127 15:58:17.863840 140555774920512 train.py:137] Iter[307/150000], 4.0s/iter, Loss: 0.512
+I0127 15:58:21.922808 140555774920512 train.py:137] Iter[308/150000], 4.1s/iter, Loss: 0.418
+I0127 15:58:26.111341 140555774920512 train.py:137] Iter[309/150000], 4.2s/iter, Loss: 0.597
+I0127 15:58:30.265384 140555774920512 train.py:137] Iter[310/150000], 4.2s/iter, Loss: 0.446
+I0127 15:58:34.332009 140555774920512 train.py:137] Iter[311/150000], 4.1s/iter, Loss: 0.482
+I0127 15:58:38.379464 140555774920512 train.py:137] Iter[312/150000], 4.0s/iter, Loss: 0.471
+I0127 15:58:42.700378 140555774920512 train.py:137] Iter[313/150000], 4.3s/iter, Loss: 0.558
+I0127 15:58:47.066195 140555774920512 train.py:137] Iter[314/150000], 4.4s/iter, Loss: 0.408
+I0127 15:58:51.238415 140555774920512 train.py:137] Iter[315/150000], 4.2s/iter, Loss: 0.405
+I0127 15:58:55.635668 140555774920512 train.py:137] Iter[316/150000], 4.4s/iter, Loss: 0.365
+I0127 15:58:59.911700 140555774920512 train.py:137] Iter[317/150000], 4.3s/iter, Loss: 0.358
+I0127 15:59:04.308188 140555774920512 train.py:137] Iter[318/150000], 4.4s/iter, Loss: 0.457
+I0127 15:59:08.272220 140555774920512 train.py:137] Iter[319/150000], 4.0s/iter, Loss: 0.578
+I0127 15:59:12.379523 140555774920512 train.py:137] Iter[320/150000], 4.1s/iter, Loss: 0.544
+I0127 15:59:16.913048 140555774920512 train.py:137] Iter[321/150000], 4.5s/iter, Loss: 0.365
+I0127 15:59:21.228862 140555774920512 train.py:137] Iter[322/150000], 4.3s/iter, Loss: 0.319
+I0127 15:59:26.015740 140555774920512 train.py:137] Iter[323/150000], 4.8s/iter, Loss: 0.472
+I0127 15:59:30.072657 140555774920512 train.py:137] Iter[324/150000], 4.1s/iter, Loss: 0.488
+I0127 15:59:34.240568 140555774920512 train.py:137] Iter[325/150000], 4.2s/iter, Loss: 0.382
+I0127 15:59:38.527673 140555774920512 train.py:137] Iter[326/150000], 4.3s/iter, Loss: 0.431
+I0127 15:59:42.477936 140555774920512 train.py:137] Iter[327/150000], 3.9s/iter, Loss: 0.477
+I0127 15:59:46.970657 140555774920512 train.py:137] Iter[328/150000], 4.5s/iter, Loss: 0.436
+I0127 15:59:50.982669 140555774920512 train.py:137] Iter[329/150000], 4.0s/iter, Loss: 0.594
+I0127 15:59:54.974467 140555774920512 train.py:137] Iter[330/150000], 4.0s/iter, Loss: 0.398
+I0127 15:59:59.019913 140555774920512 train.py:137] Iter[331/150000], 4.0s/iter, Loss: 0.525
+I0127 16:00:03.293815 140555774920512 train.py:137] Iter[332/150000], 4.3s/iter, Loss: 0.425
+I0127 16:00:07.663404 140555774920512 train.py:137] Iter[333/150000], 4.4s/iter, Loss: 0.439
+I0127 16:00:11.912996 140555774920512 train.py:137] Iter[334/150000], 4.2s/iter, Loss: 0.553
+I0127 16:00:16.337080 140555774920512 train.py:137] Iter[335/150000], 4.4s/iter, Loss: 0.493
+I0127 16:00:20.506745 140555774920512 train.py:137] Iter[336/150000], 4.2s/iter, Loss: 0.502
+I0127 16:00:24.696687 140555774920512 train.py:137] Iter[337/150000], 4.2s/iter, Loss: 0.395
+I0127 16:00:28.800143 140555774920512 train.py:137] Iter[338/150000], 4.1s/iter, Loss: 0.414
+I0127 16:00:33.016362 140555774920512 train.py:137] Iter[339/150000], 4.2s/iter, Loss: 0.437
+I0127 16:00:37.244343 140555774920512 train.py:137] Iter[340/150000], 4.2s/iter, Loss: 0.315
+I0127 16:00:41.299034 140555774920512 train.py:137] Iter[341/150000], 4.1s/iter, Loss: 0.359
+I0127 16:00:45.637787 140555774920512 train.py:137] Iter[342/150000], 4.3s/iter, Loss: 0.436
+I0127 16:00:49.944249 140555774920512 train.py:137] Iter[343/150000], 4.3s/iter, Loss: 0.439
+I0127 16:00:54.212012 140555774920512 train.py:137] Iter[344/150000], 4.3s/iter, Loss: 0.551
+I0127 16:00:58.252242 140555774920512 train.py:137] Iter[345/150000], 4.0s/iter, Loss: 0.480
+I0127 16:01:02.551054 140555774920512 train.py:137] Iter[346/150000], 4.3s/iter, Loss: 0.354
+I0127 16:01:06.569908 140555774920512 train.py:137] Iter[347/150000], 4.0s/iter, Loss: 0.383
+I0127 16:01:10.527472 140555774920512 train.py:137] Iter[348/150000], 4.0s/iter, Loss: 0.466
+I0127 16:01:14.883905 140555774920512 train.py:137] Iter[349/150000], 4.4s/iter, Loss: 0.373
+I0127 16:01:19.045344 140555774920512 train.py:137] Iter[350/150000], 4.2s/iter, Loss: 0.316
+I0127 16:01:23.249050 140555774920512 train.py:137] Iter[351/150000], 4.2s/iter, Loss: 0.381
+I0127 16:01:27.857931 140555774920512 train.py:137] Iter[352/150000], 4.6s/iter, Loss: 0.363
+I0127 16:01:32.096350 140555774920512 train.py:137] Iter[353/150000], 4.2s/iter, Loss: 0.385
+I0127 16:01:36.442893 140555774920512 train.py:137] Iter[354/150000], 4.3s/iter, Loss: 0.398
+I0127 16:01:40.566555 140555774920512 train.py:137] Iter[355/150000], 4.1s/iter, Loss: 0.352
+I0127 16:01:45.009751 140555774920512 train.py:137] Iter[356/150000], 4.4s/iter, Loss: 0.383
+I0127 16:01:48.983259 140555774920512 train.py:137] Iter[357/150000], 4.0s/iter, Loss: 0.480
+I0127 16:01:53.428029 140555774920512 train.py:137] Iter[358/150000], 4.4s/iter, Loss: 0.387
+I0127 16:01:57.539566 140555774920512 train.py:137] Iter[359/150000], 4.1s/iter, Loss: 0.349
+I0127 16:02:01.639273 140555774920512 train.py:137] Iter[360/150000], 4.1s/iter, Loss: 0.542
+I0127 16:02:05.722621 140555774920512 train.py:137] Iter[361/150000], 4.1s/iter, Loss: 0.538
+I0127 16:02:09.707425 140555774920512 train.py:137] Iter[362/150000], 4.0s/iter, Loss: 0.370
+I0127 16:02:13.763227 140555774920512 train.py:137] Iter[363/150000], 4.1s/iter, Loss: 0.501
+I0127 16:02:18.071283 140555774920512 train.py:137] Iter[364/150000], 4.3s/iter, Loss: 0.432
+I0127 16:02:22.203395 140555774920512 train.py:137] Iter[365/150000], 4.1s/iter, Loss: 0.537
+I0127 16:02:26.280567 140555774920512 train.py:137] Iter[366/150000], 4.1s/iter, Loss: 0.519
+I0127 16:02:30.365604 140555774920512 train.py:137] Iter[367/150000], 4.1s/iter, Loss: 0.345
+I0127 16:02:34.352049 140555774920512 train.py:137] Iter[368/150000], 4.0s/iter, Loss: 0.456
+I0127 16:02:38.522480 140555774920512 train.py:137] Iter[369/150000], 4.2s/iter, Loss: 0.431
+I0127 16:02:42.620211 140555774920512 train.py:137] Iter[370/150000], 4.1s/iter, Loss: 0.388
+I0127 16:02:47.027549 140555774920512 train.py:137] Iter[371/150000], 4.4s/iter, Loss: 0.335
+I0127 16:02:51.169833 140555774920512 train.py:137] Iter[372/150000], 4.1s/iter, Loss: 0.495
+I0127 16:02:55.158501 140555774920512 train.py:137] Iter[373/150000], 4.0s/iter, Loss: 0.661
+I0127 16:02:59.229607 140555774920512 train.py:137] Iter[374/150000], 4.1s/iter, Loss: 0.397
+I0127 16:03:03.461537 140555774920512 train.py:137] Iter[375/150000], 4.2s/iter, Loss: 0.457
+I0127 16:03:07.659071 140555774920512 train.py:137] Iter[376/150000], 4.2s/iter, Loss: 0.368
+I0127 16:03:11.586539 140555774920512 train.py:137] Iter[377/150000], 3.9s/iter, Loss: 0.356
+I0127 16:03:15.586585 140555774920512 train.py:137] Iter[378/150000], 4.0s/iter, Loss: 0.404
+I0127 16:03:20.119293 140555774920512 train.py:137] Iter[379/150000], 4.5s/iter, Loss: 0.342
+I0127 16:03:24.394152 140555774920512 train.py:137] Iter[380/150000], 4.3s/iter, Loss: 0.452
+I0127 16:03:28.541825 140555774920512 train.py:137] Iter[381/150000], 4.1s/iter, Loss: 0.360
+I0127 16:03:32.776043 140555774920512 train.py:137] Iter[382/150000], 4.2s/iter, Loss: 0.500
+I0127 16:03:37.196071 140555774920512 train.py:137] Iter[383/150000], 4.4s/iter, Loss: 0.302
+I0127 16:03:41.237104 140555774920512 train.py:137] Iter[384/150000], 4.0s/iter, Loss: 0.327
+I0127 16:03:45.412880 140555774920512 train.py:137] Iter[385/150000], 4.2s/iter, Loss: 0.349
+I0127 16:03:49.566459 140555774920512 train.py:137] Iter[386/150000], 4.2s/iter, Loss: 0.364
+I0127 16:03:53.803771 140555774920512 train.py:137] Iter[387/150000], 4.2s/iter, Loss: 0.355
+I0127 16:03:57.935830 140555774920512 train.py:137] Iter[388/150000], 4.1s/iter, Loss: 0.524
+I0127 16:04:01.980551 140555774920512 train.py:137] Iter[389/150000], 4.0s/iter, Loss: 0.348
+I0127 16:04:06.154042 140555774920512 train.py:137] Iter[390/150000], 4.2s/iter, Loss: 0.354
+I0127 16:04:10.368400 140555774920512 train.py:137] Iter[391/150000], 4.2s/iter, Loss: 0.296
+I0127 16:04:14.391628 140555774920512 train.py:137] Iter[392/150000], 4.0s/iter, Loss: 0.453
+I0127 16:04:18.388508 140555774920512 train.py:137] Iter[393/150000], 4.0s/iter, Loss: 0.547
+I0127 16:04:22.636090 140555774920512 train.py:137] Iter[394/150000], 4.2s/iter, Loss: 0.505
+I0127 16:04:26.540656 140555774920512 train.py:137] Iter[395/150000], 3.9s/iter, Loss: 0.441
+I0127 16:04:30.530061 140555774920512 train.py:137] Iter[396/150000], 4.0s/iter, Loss: 0.439
+I0127 16:04:34.432045 140555774920512 train.py:137] Iter[397/150000], 3.9s/iter, Loss: 0.397
+I0127 16:04:38.439628 140555774920512 train.py:137] Iter[398/150000], 4.0s/iter, Loss: 0.394
+I0127 16:04:42.907643 140555774920512 train.py:137] Iter[399/150000], 4.5s/iter, Loss: 0.350
+I0127 16:04:46.966739 140555774920512 train.py:137] Iter[400/150000], 4.1s/iter, Loss: 0.405
+I0127 16:04:51.053336 140555774920512 train.py:137] Iter[401/150000], 4.1s/iter, Loss: 0.326
+I0127 16:04:55.362473 140555774920512 train.py:137] Iter[402/150000], 4.3s/iter, Loss: 0.332
+I0127 16:04:59.738404 140555774920512 train.py:137] Iter[403/150000], 4.4s/iter, Loss: 0.375
+I0127 16:05:03.814490 140555774920512 train.py:137] Iter[404/150000], 4.1s/iter, Loss: 0.390
+I0127 16:05:07.990838 140555774920512 train.py:137] Iter[405/150000], 4.2s/iter, Loss: 0.369
+I0127 16:05:12.076092 140555774920512 train.py:137] Iter[406/150000], 4.1s/iter, Loss: 0.457
+I0127 16:05:16.035449 140555774920512 train.py:137] Iter[407/150000], 4.0s/iter, Loss: 0.415
+I0127 16:05:20.246058 140555774920512 train.py:137] Iter[408/150000], 4.2s/iter, Loss: 0.398
+I0127 16:05:24.712654 140555774920512 train.py:137] Iter[409/150000], 4.5s/iter, Loss: 0.441
+I0127 16:05:28.989224 140555774920512 train.py:137] Iter[410/150000], 4.3s/iter, Loss: 0.310
+I0127 16:05:33.233179 140555774920512 train.py:137] Iter[411/150000], 4.2s/iter, Loss: 0.334
+I0127 16:05:37.206543 140555774920512 train.py:137] Iter[412/150000], 4.0s/iter, Loss: 0.365
+I0127 16:05:41.340164 140555774920512 train.py:137] Iter[413/150000], 4.1s/iter, Loss: 0.386
+I0127 16:05:45.783067 140555774920512 train.py:137] Iter[414/150000], 4.4s/iter, Loss: 0.482
+I0127 16:05:49.872472 140555774920512 train.py:137] Iter[415/150000], 4.1s/iter, Loss: 0.332
+I0127 16:05:54.084288 140555774920512 train.py:137] Iter[416/150000], 4.2s/iter, Loss: 0.386
+I0127 16:05:58.414059 140555774920512 train.py:137] Iter[417/150000], 4.3s/iter, Loss: 0.429
+I0127 16:06:02.556394 140555774920512 train.py:137] Iter[418/150000], 4.1s/iter, Loss: 0.464
+I0127 16:06:06.749101 140555774920512 train.py:137] Iter[419/150000], 4.2s/iter, Loss: 0.347
+I0127 16:06:10.919424 140555774920512 train.py:137] Iter[420/150000], 4.2s/iter, Loss: 0.454
+I0127 16:06:15.226106 140555774920512 train.py:137] Iter[421/150000], 4.3s/iter, Loss: 0.477
+I0127 16:06:19.424472 140555774920512 train.py:137] Iter[422/150000], 4.2s/iter, Loss: 0.294
+I0127 16:06:23.603042 140555774920512 train.py:137] Iter[423/150000], 4.2s/iter, Loss: 0.363
+I0127 16:06:27.824340 140555774920512 train.py:137] Iter[424/150000], 4.2s/iter, Loss: 0.367
+I0127 16:06:32.135974 140555774920512 train.py:137] Iter[425/150000], 4.3s/iter, Loss: 0.309
+I0127 16:06:36.497575 140555774920512 train.py:137] Iter[426/150000], 4.4s/iter, Loss: 0.330
+I0127 16:06:40.517947 140555774920512 train.py:137] Iter[427/150000], 4.0s/iter, Loss: 0.315
+I0127 16:06:44.718149 140555774920512 train.py:137] Iter[428/150000], 4.2s/iter, Loss: 0.339
+I0127 16:06:48.844889 140555774920512 train.py:137] Iter[429/150000], 4.1s/iter, Loss: 0.355
+I0127 16:06:52.968109 140555774920512 train.py:137] Iter[430/150000], 4.1s/iter, Loss: 0.452
+I0127 16:06:57.338485 140555774920512 train.py:137] Iter[431/150000], 4.4s/iter, Loss: 0.340
+I0127 16:07:01.748961 140555774920512 train.py:137] Iter[432/150000], 4.4s/iter, Loss: 0.303
+I0127 16:07:05.781092 140555774920512 train.py:137] Iter[433/150000], 4.0s/iter, Loss: 0.447
+I0127 16:07:09.831678 140555774920512 train.py:137] Iter[434/150000], 4.0s/iter, Loss: 0.386
+I0127 16:07:13.887484 140555774920512 train.py:137] Iter[435/150000], 4.1s/iter, Loss: 0.338
+I0127 16:07:17.806497 140555774920512 train.py:137] Iter[436/150000], 3.9s/iter, Loss: 0.304
+I0127 16:07:22.218560 140555774920512 train.py:137] Iter[437/150000], 4.4s/iter, Loss: 0.300
+I0127 16:07:26.262559 140555774920512 train.py:137] Iter[438/150000], 4.0s/iter, Loss: 0.371
+I0127 16:07:30.398928 140555774920512 train.py:137] Iter[439/150000], 4.1s/iter, Loss: 0.290
+I0127 16:07:34.592872 140555774920512 train.py:137] Iter[440/150000], 4.2s/iter, Loss: 0.394
+I0127 16:07:38.527695 140555774920512 train.py:137] Iter[441/150000], 3.9s/iter, Loss: 0.296
+I0127 16:07:42.575500 140555774920512 train.py:137] Iter[442/150000], 4.0s/iter, Loss: 0.281
+I0127 16:07:46.704146 140555774920512 train.py:137] Iter[443/150000], 4.1s/iter, Loss: 0.495
+I0127 16:07:50.778599 140555774920512 train.py:137] Iter[444/150000], 4.1s/iter, Loss: 0.539
+I0127 16:07:55.097852 140555774920512 train.py:137] Iter[445/150000], 4.3s/iter, Loss: 0.387
+I0127 16:07:59.187865 140555774920512 train.py:137] Iter[446/150000], 4.1s/iter, Loss: 0.380
+I0127 16:08:03.573564 140555774920512 train.py:137] Iter[447/150000], 4.4s/iter, Loss: 0.464
+I0127 16:08:07.639465 140555774920512 train.py:137] Iter[448/150000], 4.1s/iter, Loss: 0.419
+I0127 16:08:11.933226 140555774920512 train.py:137] Iter[449/150000], 4.3s/iter, Loss: 0.526
+I0127 16:08:16.189108 140555774920512 train.py:137] Iter[450/150000], 4.3s/iter, Loss: 0.422
+I0127 16:08:20.182745 140555774920512 train.py:137] Iter[451/150000], 4.0s/iter, Loss: 0.370

@@ -1,0 +1,207 @@
+I0127 16:33:32.028938 139744150476608 utils.py:249] Using config from config.py as no config.yml file exists in /tmp/alignment_logs
+2020-01-27 16:33:32.042759: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2020-01-27 16:33:32.073935: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.074536: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1070 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.683
+pciBusID: 0000:01:00.0
+2020-01-27 16:33:32.074583: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.075125: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 1 with properties: 
+name: GeForce GTX 1070 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.683
+pciBusID: 0000:02:00.0
+2020-01-27 16:33:32.075283: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-01-27 16:33:32.076167: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-01-27 16:33:32.076984: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-01-27 16:33:32.077213: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-01-27 16:33:32.078303: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-01-27 16:33:32.079139: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-01-27 16:33:32.081472: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-01-27 16:33:32.081590: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.082534: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.083235: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.084013: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.084656: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0, 1
+2020-01-27 16:33:32.085203: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-01-27 16:33:32.226657: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.231612: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.232253: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4493e00 executing computations on platform CUDA. Devices:
+2020-01-27 16:33:32.232267: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce GTX 1070 Ti, Compute Capability 6.1
+2020-01-27 16:33:32.232272: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (1): GeForce GTX 1070 Ti, Compute Capability 6.1
+2020-01-27 16:33:32.233941: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3912000000 Hz
+2020-01-27 16:33:32.234082: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4e8a280 executing computations on platform Host. Devices:
+2020-01-27 16:33:32.234101: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-01-27 16:33:32.235433: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.235868: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1070 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.683
+pciBusID: 0000:01:00.0
+2020-01-27 16:33:32.235915: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.236325: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 1 with properties: 
+name: GeForce GTX 1070 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.683
+pciBusID: 0000:02:00.0
+2020-01-27 16:33:32.236348: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-01-27 16:33:32.236357: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-01-27 16:33:32.236366: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-01-27 16:33:32.236374: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-01-27 16:33:32.236383: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-01-27 16:33:32.236390: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-01-27 16:33:32.236399: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-01-27 16:33:32.236432: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.236880: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.237319: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.237775: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.238274: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0, 1
+2020-01-27 16:33:32.238315: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-01-27 16:33:32.239528: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-01-27 16:33:32.239553: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 1 
+2020-01-27 16:33:32.239560: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N Y 
+2020-01-27 16:33:32.239564: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 1:   Y N 
+2020-01-27 16:33:32.239876: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.240339: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.240789: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.241698: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7495 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+2020-01-27 16:33:32.242079: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.242518: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 7600 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1070 Ti, pci bus id: 0000:02:00.0, compute capability: 6.1)
+2020-01-27 16:33:32.243774: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.244227: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1070 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.683
+pciBusID: 0000:01:00.0
+2020-01-27 16:33:32.244282: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.244693: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 1 with properties: 
+name: GeForce GTX 1070 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.683
+pciBusID: 0000:02:00.0
+2020-01-27 16:33:32.244719: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-01-27 16:33:32.244730: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-01-27 16:33:32.244739: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-01-27 16:33:32.244748: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-01-27 16:33:32.244782: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-01-27 16:33:32.244792: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-01-27 16:33:32.244802: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-01-27 16:33:32.244839: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.245273: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.245702: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.246130: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.246541: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0, 1
+2020-01-27 16:33:32.246581: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-01-27 16:33:32.246589: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 1 
+2020-01-27 16:33:32.246594: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N Y 
+2020-01-27 16:33:32.246598: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 1:   Y N 
+2020-01-27 16:33:32.246857: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.247293: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.247725: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.248139: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/device:GPU:0 with 7495 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+2020-01-27 16:33:32.248178: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1006] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-27 16:33:32.248587: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/device:GPU:1 with 7600 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1070 Ti, pci bus id: 0000:02:00.0, compute capability: 6.1)
+I0127 16:33:33.054208 139744150476608 cross_device_ops.py:416] Reduce to /job:localhost/replica:0/task:0/device:CPU:0 then broadcast to ('/job:localhost/replica:0/task:0/device:CPU:0',).
+I0127 16:33:33.055298 139744150476608 cross_device_ops.py:416] Reduce to /job:localhost/replica:0/task:0/device:CPU:0 then broadcast to ('/job:localhost/replica:0/task:0/device:CPU:0',).
+I0127 16:33:33.055983 139744150476608 cross_device_ops.py:416] Reduce to /job:localhost/replica:0/task:0/device:CPU:0 then broadcast to ('/job:localhost/replica:0/task:0/device:CPU:0',).
+I0127 16:33:33.060387 139744150476608 cross_device_ops.py:416] Reduce to /job:localhost/replica:0/task:0/device:CPU:0 then broadcast to ('/job:localhost/replica:0/task:0/device:CPU:0',).
+I0127 16:33:33.061140 139744150476608 cross_device_ops.py:416] Reduce to /job:localhost/replica:0/task:0/device:CPU:0 then broadcast to ('/job:localhost/replica:0/task:0/device:CPU:0',).
+I0127 16:33:33.061772 139744150476608 cross_device_ops.py:416] Reduce to /job:localhost/replica:0/task:0/device:CPU:0 then broadcast to ('/job:localhost/replica:0/task:0/device:CPU:0',).
+I0127 16:33:33.080826 139744150476608 cross_device_ops.py:416] Reduce to /job:localhost/replica:0/task:0/device:CPU:0 then broadcast to ('/job:localhost/replica:0/task:0/device:CPU:0',).
+I0127 16:33:33.087959 139744150476608 cross_device_ops.py:416] Reduce to /job:localhost/replica:0/task:0/device:CPU:0 then broadcast to ('/job:localhost/replica:0/task:0/device:CPU:0',).
+I0127 16:33:33.162680 139744150476608 cross_device_ops.py:416] Reduce to /job:localhost/replica:0/task:0/device:CPU:0 then broadcast to ('/job:localhost/replica:0/task:0/device:CPU:0',).
+I0127 16:33:33.163424 139744150476608 cross_device_ops.py:416] Reduce to /job:localhost/replica:0/task:0/device:CPU:0 then broadcast to ('/job:localhost/replica:0/task:0/device:CPU:0',).
+I0127 16:33:37.886622 139744150476608 datasets.py:286] Loading train data from: /tmp/pouring_tfrecords/pouring_train*
+W0127 16:33:38.584428 139739336255232 deprecation.py:323] From /usr/local/lib/python3.6/dist-packages/tensorflow/python/keras/layers/normalization.py:457: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+I0127 16:33:45.931836 139744150476608 cross_device_ops.py:733] batch_all_reduce: 74 all-reduces with algorithm = nccl, num_packs = 1, agg_small_grads_max_bytes = 0 and agg_small_grads_max_group = 10
+I0127 16:34:11.574278 139744150476608 cross_device_ops.py:733] batch_all_reduce: 74 all-reduces with algorithm = nccl, num_packs = 1, agg_small_grads_max_bytes = 0 and agg_small_grads_max_group = 10
+2020-01-27 16:34:46.556295: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1483] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2020-01-27 16:34:48.040580: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-01-27 16:34:49.612788: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+I0127 16:35:01.419747 139744150476608 train.py:125] Checkpoint saved at iter 0.
+I0127 16:35:01.421472 139744150476608 train.py:137] Iter[1/150000], 83.1s/iter, Loss: 0.986
+I0127 16:35:05.133445 139744150476608 train.py:137] Iter[2/150000], 3.7s/iter, Loss: 1.288
+I0127 16:35:08.704799 139744150476608 train.py:137] Iter[3/150000], 3.6s/iter, Loss: 0.953
+I0127 16:35:12.463930 139744150476608 train.py:137] Iter[4/150000], 3.8s/iter, Loss: 0.838
+I0127 16:35:16.165979 139744150476608 train.py:137] Iter[5/150000], 3.7s/iter, Loss: 0.752
+I0127 16:35:19.984245 139744150476608 train.py:137] Iter[6/150000], 3.8s/iter, Loss: 1.240
+I0127 16:35:23.816714 139744150476608 train.py:137] Iter[7/150000], 3.8s/iter, Loss: 0.827
+I0127 16:35:27.726666 139744150476608 train.py:137] Iter[8/150000], 3.9s/iter, Loss: 1.070
+I0127 16:35:31.436160 139744150476608 train.py:137] Iter[9/150000], 3.7s/iter, Loss: 0.919
+I0127 16:35:35.114978 139744150476608 train.py:137] Iter[10/150000], 3.7s/iter, Loss: 0.708
+I0127 16:35:38.767693 139744150476608 train.py:137] Iter[11/150000], 3.7s/iter, Loss: 0.693
+I0127 16:35:42.413841 139744150476608 train.py:137] Iter[12/150000], 3.6s/iter, Loss: 1.020
+I0127 16:35:46.025529 139744150476608 train.py:137] Iter[13/150000], 3.6s/iter, Loss: 1.037
+I0127 16:35:49.962308 139744150476608 train.py:137] Iter[14/150000], 3.9s/iter, Loss: 1.309
+I0127 16:35:53.613772 139744150476608 train.py:137] Iter[15/150000], 3.7s/iter, Loss: 0.950
+I0127 16:35:57.462265 139744150476608 train.py:137] Iter[16/150000], 3.8s/iter, Loss: 0.808
+I0127 16:36:01.262503 139744150476608 train.py:137] Iter[17/150000], 3.8s/iter, Loss: 0.730
+I0127 16:36:04.937053 139744150476608 train.py:137] Iter[18/150000], 3.7s/iter, Loss: 1.000
+I0127 16:36:08.603922 139744150476608 train.py:137] Iter[19/150000], 3.7s/iter, Loss: 0.654
+I0127 16:36:12.289232 139744150476608 train.py:137] Iter[20/150000], 3.7s/iter, Loss: 0.673
+I0127 16:36:16.196030 139744150476608 train.py:137] Iter[21/150000], 3.9s/iter, Loss: 0.914
+I0127 16:36:20.116727 139744150476608 train.py:137] Iter[22/150000], 3.9s/iter, Loss: 0.874
+I0127 16:36:24.177738 139744150476608 train.py:137] Iter[23/150000], 4.1s/iter, Loss: 1.546
+I0127 16:36:27.766118 139744150476608 train.py:137] Iter[24/150000], 3.6s/iter, Loss: 0.755
+I0127 16:36:31.615972 139744150476608 train.py:137] Iter[25/150000], 3.8s/iter, Loss: 0.785
+I0127 16:36:35.349483 139744150476608 train.py:137] Iter[26/150000], 3.7s/iter, Loss: 0.829
+I0127 16:36:39.228009 139744150476608 train.py:137] Iter[27/150000], 3.9s/iter, Loss: 1.003
+I0127 16:36:43.078082 139744150476608 train.py:137] Iter[28/150000], 3.8s/iter, Loss: 1.036
+I0127 16:36:46.697972 139744150476608 train.py:137] Iter[29/150000], 3.6s/iter, Loss: 0.756
+I0127 16:36:50.424740 139744150476608 train.py:137] Iter[30/150000], 3.7s/iter, Loss: 0.834
+I0127 16:36:54.259462 139744150476608 train.py:137] Iter[31/150000], 3.8s/iter, Loss: 0.906
+I0127 16:36:58.203103 139744150476608 train.py:137] Iter[32/150000], 3.9s/iter, Loss: 0.705
+I0127 16:37:02.047024 139744150476608 train.py:137] Iter[33/150000], 3.8s/iter, Loss: 0.758
+I0127 16:37:05.656954 139744150476608 train.py:137] Iter[34/150000], 3.6s/iter, Loss: 0.884
+I0127 16:37:09.483623 139744150476608 train.py:137] Iter[35/150000], 3.8s/iter, Loss: 0.604
+I0127 16:37:13.122944 139744150476608 train.py:137] Iter[36/150000], 3.6s/iter, Loss: 0.921
+I0127 16:37:17.087298 139744150476608 train.py:137] Iter[37/150000], 4.0s/iter, Loss: 0.957
+I0127 16:37:20.815580 139744150476608 train.py:137] Iter[38/150000], 3.7s/iter, Loss: 0.692
+I0127 16:37:24.817478 139744150476608 train.py:137] Iter[39/150000], 4.0s/iter, Loss: 1.479
+I0127 16:37:28.782699 139744150476608 train.py:137] Iter[40/150000], 4.0s/iter, Loss: 0.775
+I0127 16:37:32.595277 139744150476608 train.py:137] Iter[41/150000], 3.8s/iter, Loss: 0.635
+I0127 16:37:36.283825 139744150476608 train.py:137] Iter[42/150000], 3.7s/iter, Loss: 1.102
+I0127 16:37:39.890319 139744150476608 train.py:137] Iter[43/150000], 3.6s/iter, Loss: 0.705
+I0127 16:37:43.608124 139744150476608 train.py:137] Iter[44/150000], 3.7s/iter, Loss: 0.732
+I0127 16:37:47.239138 139744150476608 train.py:137] Iter[45/150000], 3.6s/iter, Loss: 0.753
+I0127 16:37:51.124512 139744150476608 train.py:137] Iter[46/150000], 3.9s/iter, Loss: 0.802
+I0127 16:37:54.984400 139744150476608 train.py:137] Iter[47/150000], 3.9s/iter, Loss: 0.614
+I0127 16:37:58.902678 139744150476608 train.py:137] Iter[48/150000], 3.9s/iter, Loss: 1.017
+I0127 16:38:02.594512 139744150476608 train.py:137] Iter[49/150000], 3.7s/iter, Loss: 0.721
+I0127 16:38:06.269455 139744150476608 train.py:137] Iter[50/150000], 3.7s/iter, Loss: 0.808
+I0127 16:38:09.859978 139744150476608 train.py:137] Iter[51/150000], 3.6s/iter, Loss: 0.863
+I0127 16:38:13.659445 139744150476608 train.py:137] Iter[52/150000], 3.8s/iter, Loss: 0.758
+I0127 16:38:17.416747 139744150476608 train.py:137] Iter[53/150000], 3.8s/iter, Loss: 0.768
+I0127 16:38:21.064926 139744150476608 train.py:137] Iter[54/150000], 3.6s/iter, Loss: 0.954
+I0127 16:38:24.802624 139744150476608 train.py:137] Iter[55/150000], 3.7s/iter, Loss: 0.657
+I0127 16:38:28.438769 139744150476608 train.py:137] Iter[56/150000], 3.6s/iter, Loss: 0.690
+I0127 16:38:32.116857 139744150476608 train.py:137] Iter[57/150000], 3.7s/iter, Loss: 0.571
+I0127 16:38:35.847496 139744150476608 train.py:137] Iter[58/150000], 3.7s/iter, Loss: 0.924
+I0127 16:38:39.558179 139744150476608 train.py:137] Iter[59/150000], 3.7s/iter, Loss: 0.675
+I0127 16:38:43.286236 139744150476608 train.py:137] Iter[60/150000], 3.7s/iter, Loss: 0.697
+I0127 16:38:46.967365 139744150476608 train.py:137] Iter[61/150000], 3.7s/iter, Loss: 1.058
+I0127 16:38:50.688926 139744150476608 train.py:137] Iter[62/150000], 3.7s/iter, Loss: 0.692
+I0127 16:38:54.493064 139744150476608 train.py:137] Iter[63/150000], 3.8s/iter, Loss: 0.557
+I0127 16:38:58.111791 139744150476608 train.py:137] Iter[64/150000], 3.6s/iter, Loss: 0.525
+I0127 16:39:01.756692 139744150476608 train.py:137] Iter[65/150000], 3.6s/iter, Loss: 0.852
+I0127 16:39:05.542611 139744150476608 train.py:137] Iter[66/150000], 3.8s/iter, Loss: 0.866
+I0127 16:39:09.389474 139744150476608 train.py:137] Iter[67/150000], 3.8s/iter, Loss: 0.949
+I0127 16:39:13.297655 139744150476608 train.py:137] Iter[68/150000], 3.9s/iter, Loss: 0.571
+I0127 16:39:17.060806 139744150476608 train.py:137] Iter[69/150000], 3.8s/iter, Loss: 0.735
+I0127 16:39:21.051056 139744150476608 train.py:137] Iter[70/150000], 4.0s/iter, Loss: 0.695
+I0127 16:39:24.979872 139744150476608 train.py:137] Iter[71/150000], 3.9s/iter, Loss: 0.695
+I0127 16:39:28.598783 139744150476608 train.py:137] Iter[72/150000], 3.6s/iter, Loss: 0.555
+I0127 16:39:32.381231 139744150476608 train.py:137] Iter[73/150000], 3.8s/iter, Loss: 0.623
+I0127 16:39:36.223490 139744150476608 train.py:137] Iter[74/150000], 3.8s/iter, Loss: 0.807
+I0127 16:39:40.040028 139744150476608 train.py:137] Iter[75/150000], 3.8s/iter, Loss: 0.626
+I0127 16:39:43.780273 139744150476608 train.py:137] Iter[76/150000], 3.7s/iter, Loss: 0.555
+I0127 16:39:47.533022 139744150476608 train.py:137] Iter[77/150000], 3.8s/iter, Loss: 0.705
+I0127 16:39:51.313524 139744150476608 train.py:137] Iter[78/150000], 3.8s/iter, Loss: 0.646
+I0127 16:39:55.350081 139744150476608 train.py:137] Iter[79/150000], 4.0s/iter, Loss: 0.654
+I0127 16:39:59.068546 139744150476608 train.py:137] Iter[80/150000], 3.7s/iter, Loss: 0.703
+I0127 16:40:02.905278 139744150476608 train.py:137] Iter[81/150000], 3.8s/iter, Loss: 1.155
+I0127 16:40:06.685540 139744150476608 train.py:137] Iter[82/150000], 3.8s/iter, Loss: 0.914
+I0127 16:40:10.278687 139744150476608 train.py:137] Iter[83/150000], 3.6s/iter, Loss: 0.896
+I0127 16:40:14.383546 139744150476608 train.py:137] Iter[84/150000], 4.1s/iter, Loss: 1.142
+I0127 16:40:18.392135 139744150476608 train.py:137] Iter[85/150000], 4.0s/iter, Loss: 0.630
+I0127 16:40:22.145812 139744150476608 train.py:137] Iter[86/150000], 3.8s/iter, Loss: 0.868
+I0127 16:40:26.188079 139744150476608 train.py:137] Iter[87/150000], 4.0s/iter, Loss: 0.607
+I0127 16:40:29.978683 139744150476608 train.py:137] Iter[88/150000], 3.8s/iter, Loss: 0.550
+I0127 16:40:33.695139 139744150476608 train.py:137] Iter[89/150000], 3.7s/iter, Loss: 0.563
+I0127 16:40:37.411429 139744150476608 train.py:137] Iter[90/150000], 3.7s/iter, Loss: 0.688
+I0127 16:40:41.078604 139744150476608 train.py:137] Iter[91/150000], 3.7s/iter, Loss: 1.007
+I0127 16:40:45.074617 139744150476608 train.py:137] Iter[92/150000], 4.0s/iter, Loss: 0.568
+I0127 16:40:48.811253 139744150476608 train.py:137] Iter[93/150000], 3.7s/iter, Loss: 0.483
+I0127 16:40:52.663147 139744150476608 train.py:137] Iter[94/150000], 3.9s/iter, Loss: 0.671
+I0127 16:40:56.304879 139744150476608 train.py:137] Iter[95/150000], 3.6s/iter, Loss: 0.537
